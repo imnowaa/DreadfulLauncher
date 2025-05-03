@@ -1,8 +1,8 @@
-appId: 'helioslauncher'
-productName: 'Helios Launcher'
+appId: 'noelauncher'
+productName: 'Noe Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2024 Daniel Scalzi'
+copyright: 'Copyright © 2018-2024 Daniel Scalzi & imnowa'
 
 asar: true
 compression: 'maximum'
