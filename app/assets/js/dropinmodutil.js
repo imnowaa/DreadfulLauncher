@@ -71,7 +71,7 @@ exports.scanForDropinMods = function(modsDir, version) {
 
 /**
  * Add dropin mods.
- * 
+ *
  * @param {FileList} files The files to add.
  * @param {string} modsDir The path to the mods directory.
  */
@@ -89,10 +89,10 @@ exports.addDropinMods = function(files, modsdir) {
 
 /**
  * Delete a drop-in mod from the file system.
- * 
+ *
  * @param {string} modsDir The path to the mods directory.
  * @param {string} fullName The fullName of the discovered mod to delete.
- * 
+ *
  * @returns {Promise.<boolean>} True if the mod was deleted, otherwise false.
  */
 exports.deleteDropinMod = async function(modsDir, fullName){
@@ -109,13 +109,13 @@ exports.deleteDropinMod = async function(modsDir, fullName){
 }
 
 /**
- * Toggle a discovered mod on or off. This is achieved by either 
+ * Toggle a discovered mod on or off. This is achieved by either
  * adding or disabling the .disabled extension to the local file.
- * 
+ *
  * @param {string} modsDir The path to the mods directory.
  * @param {string} fullName The fullName of the discovered mod to toggle.
  * @param {boolean} enable Whether to toggle on or off the mod.
- * 
+ *
  * @returns {Promise.<void>} A promise which resolves when the mod has
  * been toggled. If an IO error occurs the promise will be rejected.
  */
@@ -136,7 +136,7 @@ exports.toggleDropinMod = function(modsDir, fullName, enable){
 
 /**
  * Check if a drop-in mod is enabled.
- * 
+ *
  * @param {string} fullName The fullName of the discovered mod to toggle.
  * @returns {boolean} True if the mod is enabled, otherwise false.
  */

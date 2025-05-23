@@ -1,13 +1,13 @@
 {
-  "name": "noelauncher",
+  "name": "dreadfullauncher",
   "version": "1.0.0",
   "productName": "Helios Launcher",
   "description": "Launcher custom pour le serveur N.O.E. grâce à l'Helios Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/) & imnowa",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/imnowaa/NoeLauncher",
+  "homepage": "https://github.com/imnowaa/DreadfulLauncher",
   "bugs": {
-    "url": "https://github.com/imnowaa/NoeLauncher/issues"
+    "url": "https://github.com/imnowaa/DreadfulLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imnowaa/NoeLauncher.git"
+    "url": "git+https://github.com/imnowaa/DreadfulLauncher.git"
   }
 }
